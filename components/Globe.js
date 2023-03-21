@@ -8,6 +8,7 @@ function Globe() {
       height="35"
       fill="none"
       viewBox="0 0 35 35"
+      className="origin-right scale-75 2xl:scale-100"
     >
       <path
         fill="#fff"

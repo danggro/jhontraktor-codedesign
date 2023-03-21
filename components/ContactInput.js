@@ -4,7 +4,7 @@ export default function ContactInput({ place }) {
       <input
         type="text"
         placeholder={place}
-        className="rounded-[15px] px-16 text-xl text-primary/50 py-6 w-full "
+        className="rounded-[15px] 2xl:px-16 px-10 2xl:text-xl text-base text-primary/50 2xl:py-6 py-3 w-full "
       />
     </>
   );

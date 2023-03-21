@@ -6,17 +6,21 @@ export default function SectionReview() {
     <section id="review" className="py-[50px]">
       <Container>
         <div className="text-center">
-          <h3 className="text-orange font-semibold text-[28px]">
+          <h3 className="text-orange font-semibold 2xl:text-[28px] text-xl">
             What Our Client Says
           </h3>
-          <p className="w-10/12 px-24 mx-auto text-xl mt-7">
+          <p className="w-10/12 px-24 mx-auto mt-3 text-base 2xl:text-xl 2xl:mt-4">
             I am very satisfied with the services. Their team is very
             professional and efficient in completing our project on time and at
             a very affordable cost. The quality of their work is very good and I
             highly recommend this company for any construction project.
           </p>
-          <h4 className="text-xl font-medium mt-[14px]">Tom DeLonge</h4>
-          <h5 className="mt-1 text-base font-medium">CEO, Lexmark</h5>
+          <h4 className="2xl:text-xl text-base font-medium mt-[14px]">
+            Tom DeLonge
+          </h4>
+          <h5 className="mt-1 text-xs font-medium 2xl:text-base">
+            CEO, Lexmark
+          </h5>
         </div>
         <div className="flex items-center justify-center mt-[27px] space-x-[25px]">
           <div className="flex items-center">

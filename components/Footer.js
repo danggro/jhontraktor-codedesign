@@ -15,8 +15,10 @@ export default function Footer() {
         <div className="flex items-center justify-between">
           <FooterLogo />
           <div className="flex items-center space-x-4">
-            <h4>Subscibe To Our Newsletter:</h4>
-            <div className="flex items-center justify-between py-1 border-b">
+            <h4 className="text-base 2xl:text-xl">
+              Subscibe To Our Newsletter:
+            </h4>
+            <div className="flex items-center justify-between py-1 text-xs border-b 2xl:text-base">
               <input
                 type="email"
                 placeholder="Enter your email address"
@@ -41,9 +43,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between space-x-[115px] mt-8">
+        <div className="flex justify-between 2xl:space-x-[115px] space-x-[100px] mt-8">
           <FooterItem title="About Us">
-            <div className="w-[460px]">
+            <div className="2xl:w-[460px] w-[390px]">
               <p>
                 We have the confidence to provide the best service for you, with
                 the support of Professional and Certified HR that we currently
@@ -103,8 +105,8 @@ export default function Footer() {
               <p>Phone : (+62) 877-2469-7246</p>
             </FooterItem>
           </div>
-          <div className="w-full">
-            <FooterItem title="Contact">
+          <div className="2xl:w-[300px] w-[330px]">
+            <FooterItem title="Link">
               <ul>
                 <li className="mt-1">
                   <a href="#home" className=" hover:underline">

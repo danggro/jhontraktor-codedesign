@@ -10,7 +10,7 @@ export default function Button({ children, padding, variant }) {
   const pickVariant = variants[variant];
   return (
     <button
-      className={`py-[15px] text-2xl ${pickVariant} font-medium rounded-[15px] ${addPadding}`}
+      className={`2xl:py-[15px] py-[8px] 2xl:text-2xl text-lg ${pickVariant} font-medium rounded-[15px] ${addPadding}`}
     >
       {children}
     </button>

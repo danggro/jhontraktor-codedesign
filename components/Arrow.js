@@ -14,6 +14,7 @@ function Arrow({ variant }) {
       height="26"
       fill="none"
       viewBox="0 0 25 26"
+      className="origin-left scale-75 2xl:scale-100"
     >
       <path
         stroke={pickedVariant}

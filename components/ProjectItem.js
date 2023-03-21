@@ -1,8 +1,10 @@
 export default function ProjectItem({ step, children }) {
   return (
     <div className="text-center ">
-      <p className="text-lg font-medium text-center">{children}</p>
-      <p className="mt-3 text-sm font-medium">
+      <p className="text-base font-medium text-center 2xl:text-lg">
+        {children}
+      </p>
+      <p className="mt-3 text-xs font-medium 2xl:text-sm">
         {`Step`}
         {step}
       </p>
@@ -12,7 +14,7 @@ export default function ProjectItem({ step, children }) {
         height="35"
         fill="none"
         viewBox="0 0 35 35"
-        className="mt-[19px] mx-auto"
+        className="2xl:mt-[19px] mt-[10px] mx-auto 2xl:scale-75 scale-75"
       >
         <circle
           cx="17.5"

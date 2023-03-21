@@ -6,6 +6,7 @@ export default function NavLogo() {
       height="28"
       fill="none"
       viewBox="0 0 282 28"
+      className="origin-left 2xl:scale-100 xl:scale-75"
     >
       <path
         fill="#FF7420"

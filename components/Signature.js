@@ -8,6 +8,7 @@ function Signature() {
       height="77"
       fill="none"
       viewBox="0 0 170 77"
+      className="origin-left scale-90 2xl:scale-100"
     >
       <path
         fill="#fff"

@@ -1,10 +1,10 @@
 export default function ProjectNavItem() {
   return (
-    <ul className="flex items-center space-x-[14px]">
+    <ul className="flex items-center 2xl:space-x-[14px] space-x-[10px]">
       <li>
         <a
           href=""
-          className="text-xl font-semibold underline text-primary underline-offset-[16px] decoration-2"
+          className="2xl:text-xl xl:text-base font-semibold underline text-primary 2xl:underline-offset-[16px] underline-offset-[12px] decoration-2"
         >
           All Works
         </a>
@@ -12,7 +12,7 @@ export default function ProjectNavItem() {
       <li>
         <a
           href=""
-          className="text-xl font-semibold hover:underline hover:underline-offset-[16px] decoration-2 hover:text-primary"
+          className="2xl:text-xl xl:text-base font-semibold hover:underline 2xl:hover:underline-offset-[16px] hover:underline-offset-[12px] decoration-2 hover:text-primary"
         >
           Construction
         </a>
@@ -20,7 +20,7 @@ export default function ProjectNavItem() {
       <li>
         <a
           href=""
-          className="text-xl font-semibold hover:underline hover:underline-offset-[16px] decoration-2 hover:text-primary"
+          className="2xl:text-xl xl:text-base font-semibold hover:underline 2xl:hover:underline-offset-[16px] hover:underline-offset-[12px] decoration-2 hover:text-primary"
         >
           Architecture
         </a>
@@ -28,7 +28,7 @@ export default function ProjectNavItem() {
       <li>
         <a
           href=""
-          className="text-xl font-semibold hover:underline hover:underline-offset-[16px] decoration-2 hover:text-primary"
+          className="2xl:text-xl xl:text-base font-semibold hover:underline 2xl:hover:underline-offset-[16px] hover:underline-offset-[12px] decoration-2 hover:text-primary"
         >
           Building
         </a>
@@ -36,7 +36,7 @@ export default function ProjectNavItem() {
       <li>
         <a
           href=""
-          className="text-xl font-semibold hover:underline hover:underline-offset-[16px] decoration-2 hover:text-primary"
+          className="2xl:text-xl xl:text-base font-semibold hover:underline 2xl:hover:underline-offset-[16px] hover:underline-offset-[12px] decoration-2 hover:text-primary"
         >
           Renovations
         </a>

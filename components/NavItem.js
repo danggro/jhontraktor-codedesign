@@ -1,34 +1,34 @@
 export default function NavItem() {
   return (
-    <ul className="flex justify-center space-x-6">
-      <li className="p-[10px]">
+    <ul className="flex justify-center 2xl:space-x-6 xl:space-x-3">
+      <li className="2xl:p-[10px] xl:p-[5px]">
         <a
           href="#home"
-          className="text-2xl text-medium underline underline-offset-[25px] text-orange"
+          className=" 2xl:text-2xl xl:text-xl text-medium underline 2xl:underline-offset-[25px] underline-offset-[18px] text-orange"
         >
           Home
         </a>
       </li>
-      <li className="p-[10px]">
+      <li className="2xl:p-[10px] xl:p-[5px]">
         <a
           href="#about"
-          className="text-2xl text-medium hover:text-orange hover:underline hover:underline-offset-[25px] "
+          className=" 2xl:text-2xl xl:text-xl text-medium hover:text-orange hover:underline 2xl:hover:underline-offset-[25px] hover:underline-offset-[18px] "
         >
           About Us
         </a>
       </li>
-      <li className="p-[10px]">
+      <li className="2xl:p-[10px] xl:p-[5px]">
         <a
           href="#service"
-          className="text-2xl text-medium hover:text-orange hover:underline hover:underline-offset-[25px] "
+          className=" 2xl:text-2xl xl:text-xl text-medium hover:text-orange hover:underline 2xl:hover:underline-offset-[25px] hover:underline-offset-[18px] "
         >
           Service
         </a>
       </li>
-      <li className="p-[10px]">
+      <li className="2xl:p-[10px] xl:p-[5px]">
         <a
           href="#project"
-          className="text-2xl text-medium hover:text-orange hover:underline hover:underline-offset-[25px] "
+          className=" 2xl:text-2xl xl:text-xl text-medium hover:text-orange hover:underline 2xl:hover:underline-offset-[25px] hover:underline-offset-[18px] "
         >
           Project
         </a>
