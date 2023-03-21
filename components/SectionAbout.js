@@ -44,8 +44,8 @@ export default function SectionAbout() {
               With 25 years of experience, our contractors have a deep
               understanding of industry standards and regulations. We ensure
               that all our projects comply with the latest safety and building
-              codes, and that the final product meets or exceeds our client's
-              expectations.
+              codes, and that the final product meets or exceeds our
+              client&apos;s expectations.
             </p>
             <Signature />
             <p className="text-sm font-medium mt-[8px]">
