@@ -5,7 +5,7 @@ import NavRight from "./NavRight";
 
 export default function NavBar() {
   return (
-    <nav className="py-12  min-w-screen bg-primary">
+    <nav id="home" className="py-12 min-w-screen bg-primary">
       <Container>
         <div className="flex items-center ">
           <div className="w-[30%]">

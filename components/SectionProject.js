@@ -6,7 +6,7 @@ import ProjectNav from "./ProjectNav";
 
 export default function SectionProject() {
   return (
-    <section className="w-screen bg-orange pt-[35px] pb-24">
+    <section id="project" className="w-screen bg-orange pt-[35px] pb-24">
       <Container>
         <div className="flex px-[111px] space-x-[150px] relative">
           <div className="w-[233px]">

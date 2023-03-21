@@ -5,7 +5,7 @@ import Container from "./Container";
 
 export default function SectionContact() {
   return (
-    <section id="contact" className="w-screen bg-contact ">
+    <section id="service" className="w-screen bg-contact ">
       <div className="gradient-contact py-[50px]">
         <Container>
           <h1 className="text-center font-semibold text-[64px]">

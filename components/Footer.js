@@ -107,22 +107,22 @@ export default function Footer() {
             <FooterItem title="Contact">
               <ul>
                 <li className="mt-1">
-                  <a href="" className=" hover:underline">
+                  <a href="#home" className=" hover:underline">
                     Home
                   </a>
                 </li>
                 <li className="mt-1">
-                  <a href="" className=" hover:underline">
+                  <a href="#about" className=" hover:underline">
                     About Us
                   </a>
                 </li>
                 <li className="mt-1">
-                  <a href="" className=" hover:underline">
+                  <a href="#service" className=" hover:underline">
                     Service
                   </a>
                 </li>
                 <li className="mt-1">
-                  <a href="" className=" hover:underline">
+                  <a href="#project" className=" hover:underline">
                     Project
                   </a>
                 </li>
